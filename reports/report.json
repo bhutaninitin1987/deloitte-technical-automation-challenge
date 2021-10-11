@@ -1,0 +1,386 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "shopping-website---add-item-to-cart;add-an-item-to-cart-and-clear-the-cart",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Add an item to cart and clear the cart",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 11536000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "an user navigates to the store page",
+            "match": {
+              "location": "features\\step_definitions\\store_page_steps.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2643000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "an user adds 1st item to the cart",
+            "match": {
+              "location": "features\\step_definitions\\store_page_steps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 425000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "an user clicks on the cart link",
+            "match": {
+              "location": "features\\step_definitions\\store_page_steps.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 275000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "an user verifies that the 1st item exists in cart",
+            "match": {
+              "location": "features\\step_definitions\\cart_page_steps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 235000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "an user checks the value of 1st item as $39.11",
+            "match": {
+              "location": "features\\step_definitions\\cart_page_steps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 103000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "an user checks the value of total payment as $39.11",
+            "match": {
+              "location": "features\\step_definitions\\cart_page_steps.js:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 181000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "an user checks that a delete button appears for the 1st item",
+            "match": {
+              "location": "features\\step_definitions\\cart_page_steps.js:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 66000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "an user click on clear button",
+            "match": {
+              "location": "features\\step_definitions\\cart_page_steps.js:47"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 226000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "a cart empty message is displayed",
+            "match": {
+              "location": "features\\step_definitions\\cart_page_steps.js:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 54000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "shopping-website---add-item-to-cart;add-multiple-items-to-cart-and-checkout-the-cart",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "Add multiple items to cart and checkout the cart",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 865000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 17,
+            "name": "an user navigates to the store page",
+            "match": {
+              "location": "features\\step_definitions\\store_page_steps.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 272000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "an user adds 1st item to the cart",
+            "match": {
+              "location": "features\\step_definitions\\store_page_steps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 720000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "an user adds 2nd item to the cart",
+            "match": {
+              "location": "features\\step_definitions\\store_page_steps.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 266000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "an user clicks on the cart link",
+            "match": {
+              "location": "features\\step_definitions\\store_page_steps.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 229000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "an user increase the quantity of 1st item to 3",
+            "match": {
+              "location": "features\\step_definitions\\cart_page_steps.js:59"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 350000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "an user checks the value of 1st item as $39.11",
+            "match": {
+              "location": "features\\step_definitions\\cart_page_steps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 53000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "an user checks the value of 2nd item as $51.01",
+            "match": {
+              "location": "features\\step_definitions\\cart_page_steps.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 48000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "an user checks the value of total payment as $168.34",
+            "match": {
+              "location": "features\\step_definitions\\cart_page_steps.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 52000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "an user verifies that the reduce button displays for 1st item",
+            "match": {
+              "location": "features\\step_definitions\\cart_page_steps.js:66"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 48000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "an user verifies that the delete button displays for 2nd item",
+            "match": {
+              "location": "features\\step_definitions\\cart_page_steps.js:72"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 50000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "an user decreases the quantity of 1st item to 2",
+            "match": {
+              "location": "features\\step_definitions\\cart_page_steps.js:78"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10410000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "an user checks the value of total payment as $129.23",
+            "match": {
+              "location": "features\\step_definitions\\cart_page_steps.js:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 61000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 29,
+            "name": "an user deletes the 2nd item from the cart",
+            "match": {
+              "location": "features\\step_definitions\\cart_page_steps.js:84"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 226000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 30,
+            "name": "an user clicks on checkout button",
+            "match": {
+              "location": "features\\step_definitions\\cart_page_steps.js:90"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 224000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 31,
+            "name": "a successful checkout message is displayed",
+            "match": {
+              "location": "features\\step_definitions\\cart_page_steps.js:96"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 93000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 32,
+            "name": "a cart empty message is displayed",
+            "match": {
+              "location": "features\\step_definitions\\cart_page_steps.js:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 52000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 15
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "shopping-website---add-item-to-cart",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Shopping Website - Add Item to Cart",
+    "tags": [],
+    "uri": "features\\shopping.feature"
+  }
+]
